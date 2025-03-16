@@ -1,0 +1,28 @@
+name: "Template of Doom - 2"
+author: "Vikas"
+category: Web
+description: |
+  Jester is an AI rushed into production. It hides **two critical secrets** within its flawed code.
+
+  Your goal is to exploit Jester's weaknesses, retrieve these secrets, and shut it down.
+
+  ## Part 2/2: Mysterious Key
+    - **Location:** A custom environment restricting certain operations.
+    - **Task:** Use creative exploitation to circumvent these controls and reveal the second secret.
+
+value: 100
+
+type: standard
+
+flags:
+  - type: "static"
+    content: "ATHACKCTF{ADVANCED_SSTI_FLAG}"
+    data: "case_insensitive"
+
+tags:
+  - beginner
+  - http
+
+state: visible
+
+version: "0.1"
